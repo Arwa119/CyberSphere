@@ -742,6 +742,8 @@ footer {
         flex-direction: column;
         text-align: center;
         gap: 50px;
+        position:relative;
+        top:5rem;
     }
     
     .hero-content {
