@@ -1,176 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cybersphere - Information Security Project</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body class="dark-mode">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body class="dark-mode">
     <header>
-        <div class="header-container">
-            <div class="logo-container">
-                <div class="logo">
-                    <i class="fas fa-shield-alt"></i>
-                </div>
-                <h1>CYBERSPHERE</h1>
-            </div>
-            <div class="theme-toggle">
-                <button id="theme-toggle-btn">
-                    <i class="fas fa-moon"></i>
-                    <span></span>
-                </button>
-            </div>
+      <div class="header-container">
+        <div class="logo-container">
+          <div class="logo">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h1>CYBERSPHERE</h1>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#modules">Modules</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#download">Download</a></li>
-                <li><a href="#team">Team</a></li>
-            </ul>
-        </nav>
+        <div class="theme-toggle">
+          <button id="theme-toggle-btn">
+            <i class="fas fa-moon"></i>
+            <span></span>
+          </button>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#modules">Modules</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#team">Team</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Cybersphere</h1>
-            <h2>Advanced Security Suite</h2>
-            <p>A comprehensive security monitoring application that provides real-time protection against various cyber threats</p>
-            <div class="hero-buttons">
-            <a href="main1.exe" class="btn primary-btn" download>Download Now</a>                <a href="#modules" class="btn secondary-btn">Learn More</a>
-            </div>
+      <div class="hero-content">
+        <h1>Cybersphere</h1>
+        <h2>Advanced Security Suite</h2>
+        <p>
+          A comprehensive security monitoring application that provides
+          real-time protection against various cyber threats
+        </p>
+        <div class="hero-buttons">
+          <a href="#download" class="btn primary-btn">Download Now</a>
+          <a href="#modules" class="btn secondary-btn">Learn More</a>
         </div>
-        <div class="hero-image">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="400" height="400">
-  <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00bcd4" />
-      <stop offset="100%" stop-color="#7c4dff" />
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="10" />
-    </filter>
-  </defs>
-  <g>
-    <path fill="rgba(0,188,212,0.1)" filter="url(#shadow)" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"/>
-    <path fill="url(#gradient)" d="M256 32l160 72v128c0 94.4-70.4 168.8-160 180.8-89.6-12-160-86.4-160-180.8V104l160-72zm0 32.8L140.8 128v104c0 75.2 56 135.2 115.2 144.8V164.8l115.2-52V232c0 24.8-8 48-22.4 67.2-3.2 4-2.4 10.4 1.6 13.6 4 3.2 10.4 2.4 13.6-1.6 17.6-22.4 27.2-50.4 27.2-79.2V128L256 64.8z"/>
-    <path fill="#ffffff" d="M256 164.8v112.8c59.2-9.6 115.2-69.6 115.2-144.8V128L256 164.8z" opacity="0.3"/>
-  </g>
-</svg>
-        </div>
+      </div>
+      <div class="hero-image">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 512 512"
+          width="400"
+          height="400"
+        >
+          <defs>
+            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#00bcd4" />
+              <stop offset="100%" stop-color="#7c4dff" />
+            </linearGradient>
+            <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+              <feGaussianBlur stdDeviation="10" />
+            </filter>
+          </defs>
+          <g>
+            <path
+              fill="rgba(0,188,212,0.1)"
+              filter="url(#shadow)"
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z"
+            />
+            <path
+              fill="url(#gradient)"
+              d="M256 32l160 72v128c0 94.4-70.4 168.8-160 180.8-89.6-12-160-86.4-160-180.8V104l160-72zm0 32.8L140.8 128v104c0 75.2 56 135.2 115.2 144.8V164.8l115.2-52V232c0 24.8-8 48-22.4 67.2-3.2 4-2.4 10.4 1.6 13.6 4 3.2 10.4 2.4 13.6-1.6 17.6-22.4 27.2-50.4 27.2-79.2V128L256 64.8z"
+            />
+            <path
+              fill="#ffffff"
+              d="M256 164.8v112.8c59.2-9.6 115.2-69.6 115.2-144.8V128L256 164.8z"
+              opacity="0.3"
+            />
+          </g>
+        </svg>
+      </div>
     </section>
 
     <section id="about" class="about">
-        <div class="container">
-            <h2 class="section-title">About Cybersphere</h2>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Cybersphere is an innovative and modular security suite developed to strengthen system-level protection by actively monitoring and detecting unauthorized or suspicious activities. The project integrates four core modules—each designed to counter a specific form of security threat—creating a holistic approach to personal cybersecurity.</p>
-                    <p>In today's interconnected world, digital security is more critical than ever. With the rapid advancement of technology, cyber threats have grown in both sophistication and frequency. Individuals and organizations are constantly at risk of falling victim to unauthorized surveillance, phishing attacks, information leakage, and malware.</p>
-                </div>
-                <div class="about-cards">
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-shield-virus"></i></div>
-                        <h3>Real-Time Threat Detection</h3>
-                        <p>Alerts users instantly when suspicious activity is detected</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-user-shield"></i></div>
-                        <h3>Awareness & Prevention</h3>
-                        <p>Helps users understand and avoid common cyber traps</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-puzzle-piece"></i></div>
-                        <h3>Modular & Customizable</h3>
-                        <p>Offers targeted protection across multiple vectors</p>
-                    </div>
-                    <div class="card">
-                        <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
-                        <h3>Proactive Defence</h3>
-                        <p>Predicts and prevents before damage is done</p>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">About Cybersphere</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Cybersphere is an innovative and modular security suite developed
+              to strengthen system-level protection by actively monitoring and
+              detecting unauthorized or suspicious activities. The project
+              integrates four core modules—each designed to counter a specific
+              form of security threat—creating a holistic approach to personal
+              cybersecurity.
+            </p>
+            <p>
+              In today's interconnected world, digital security is more critical
+              than ever. With the rapid advancement of technology, cyber threats
+              have grown in both sophistication and frequency. Individuals and
+              organizations are constantly at risk of falling victim to
+              unauthorized surveillance, phishing attacks, information leakage,
+              and malware.
+            </p>
+          </div>
+          <div class="about-cards">
+            <div class="card">
+              <div class="card-icon"><i class="fas fa-shield-virus"></i></div>
+              <h3>Real-Time Threat Detection</h3>
+              <p>Alerts users instantly when suspicious activity is detected</p>
             </div>
+            <div class="card">
+              <div class="card-icon"><i class="fas fa-user-shield"></i></div>
+              <h3>Awareness & Prevention</h3>
+              <p>Helps users understand and avoid common cyber traps</p>
+            </div>
+            <div class="card">
+              <div class="card-icon"><i class="fas fa-puzzle-piece"></i></div>
+              <h3>Modular & Customizable</h3>
+              <p>Offers targeted protection across multiple vectors</p>
+            </div>
+            <div class="card">
+              <div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+              <h3>Proactive Defence</h3>
+              <p>Predicts and prevents before damage is done</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="modules" class="modules">
-        <div class="container">
-            <h2 class="section-title">Security Modules</h2>
-            <div class="modules-container">
-                <div class="module-card">
-                    <div class="module-icon">
-                        <i class="fas fa-camera"></i>
-                    </div>
-                    <h3>Screenshot Detector</h3>
-                    <p>Detects and alerts on unauthorized screenshot attempts, whether from built-in OS features or third-party tools.</p>
-                    <ul class="module-features">
-                        <li>Monitors default screenshot directory</li>
-                        <li>Recognizes screenshot hotkeys</li>
-                        <li>Identifies screenshot processes</li>
-                        <li>Supports attack simulation</li>
-                    </ul>
-                </div>
-                <div class="module-card">
-                    <div class="module-icon">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <h3>Folder Detector</h3>
-                    <p>Continuously scans sensitive folders for creation or modification of suspicious file types.</p>
-                    <ul class="module-features">
-                        <li>Detects file creation/modification</li>
-                        <li>Checks against suspicious extensions</li>
-                        <li>Triggers alerts and auto-removal</li>
-                        <li>Dynamic configuration of watch directories</li>
-                    </ul>
-                </div>
-                <div class="module-card">
-                    <div class="module-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h3>Webcam Detector</h3>
-                    <p>Detects real-time unauthorized webcam access, simulates webcam-based attacks, and alerts the user instantly.</p>
-                    <ul class="module-features">
-                        <li>Monitors webcam access attempts</li>
-                        <li>Flags suspicious access</li>
-                        <li>Tracks webcam state changes</li>
-                        <li>Offers webcam simulation</li>
-                    </ul>
-                </div>
-              
+      <div class="container">
+        <h2 class="section-title">Security Modules</h2>
+        <div class="modules-container">
+          <div class="module-card">
+            <div class="module-icon">
+              <i class="fas fa-camera"></i>
             </div>
+            <h3>Screenshot Detector</h3>
+            <p>
+              Detects and alerts on unauthorized screenshot attempts, whether
+              from built-in OS features or third-party tools.
+            </p>
+            <ul class="module-features">
+              <li>Monitors default screenshot directory</li>
+              <li>Recognizes screenshot hotkeys</li>
+              <li>Identifies screenshot processes</li>
+              <li>Supports attack simulation</li>
+            </ul>
+          </div>
+          <div class="module-card">
+            <div class="module-icon">
+              <i class="fas fa-folder-open"></i>
+            </div>
+            <h3>Folder Detector</h3>
+            <p>
+              Continuously scans sensitive folders for creation or modification
+              of suspicious file types.
+            </p>
+            <ul class="module-features">
+              <li>Detects file creation/modification</li>
+              <li>Checks against suspicious extensions</li>
+              <li>Triggers alerts and auto-removal</li>
+              <li>Dynamic configuration of watch directories</li>
+            </ul>
+          </div>
+          <div class="module-card">
+            <div class="module-icon">
+              <i class="fas fa-video"></i>
+            </div>
+            <h3>Webcam Detector</h3>
+            <p>
+              Detects real-time unauthorized webcam access, simulates
+              webcam-based attacks, and alerts the user instantly.
+            </p>
+            <ul class="module-features">
+              <li>Monitors webcam access attempts</li>
+              <li>Flags suspicious access</li>
+              <li>Tracks webcam state changes</li>
+              <li>Offers webcam simulation</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="features" class="features">
-        <div class="container">
-            <h2 class="section-title">Key Features</h2>
-            <div class="features-grid">
-                <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-bell"></i></div>
-                    <h3>Real-Time Alerts</h3>
-                    <p>Instant notifications when suspicious activity is detected</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-envelope"></i></div>
-                    <h3>Email Notifications</h3>
-                    <p>Get alerts via email when you're away from your computer</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
-                    <h3>Attack Simulation</h3>
-                    <p>Test your security with built-in attack simulations</p>
-                </div>
-                <div class="feature">
-                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
-                    <h3>Auto-Protection</h3>
-                    <p>Automatically remove suspicious files and block threats</p>
-                </div>
-                <!-- <div class="feature">
+      <div class="container">
+        <h2 class="section-title">Key Features</h2>
+        <div class="features-grid">
+          <div class="feature">
+            <div class="feature-icon"><i class="fas fa-bell"></i></div>
+            <h3>Real-Time Alerts</h3>
+            <p>Instant notifications when suspicious activity is detected</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon"><i class="fas fa-envelope"></i></div>
+            <h3>Email Notifications</h3>
+            <p>Get alerts via email when you're away from your computer</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon"><i class="fas fa-laptop-code"></i></div>
+            <h3>Attack Simulation</h3>
+            <p>Test your security with built-in attack simulations</p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+            <h3>Auto-Protection</h3>
+            <p>Automatically remove suspicious files and block threats</p>
+          </div>
+          <!-- <div class="feature">
                     <div class="feature-icon"><i class="fas fa-list"></i></div>
                     <h3>Comprehensive Logging</h3>
                     <p>Detailed logs of all security events for analysis</p>
@@ -180,109 +225,122 @@
                     <h3>User-Friendly Interface</h3>
                     <p>Easy-to-use dashboard for monitoring and configuration</p>
                 </div> -->
-            </div>
         </div>
+      </div>
     </section>
 
     <section id="download" class="download">
-        <div class="container">
-            <h2 class="section-title">Download Cybersphere</h2>
-            <div class="download-content">
-                <div class="download-info">
-                    <h3>Get Cybersphere Security Suite</h3>
-                    <p>Download the latest version of Cybersphere to protect your system from unauthorized access and cyber threats.</p>
-                    <ul class="requirements">
-                        <li><i class="fas fa-check-circle"></i> Windows 10/11</li>
-                        <li><i class="fas fa-check-circle"></i> Python 3.11 or higher (included in package)</li>
-                        <li><i class="fas fa-check-circle"></i> 4GB RAM minimum</li>
-                        <li><i class="fas fa-check-circle"></i> 100MB free disk space</li>
-                    </ul>
-                    <p class="version-info">Current Version: 1.0.0 | Released: May 2023</p>
-                </div>
-                <div class="download-button">
-                    <a href="cybersphere.exe" class="btn download-btn" download>
-                        <i class="fas fa-download"></i>
-                        Download Cybersphere.exe
-                    </a>
-                    <p class="file-info">File Size: 24.5 MB</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Download Cybersphere</h2>
+        <div class="download-content">
+          <div class="download-info">
+            <h3>Get Cybersphere Security Suite</h3>
+            <p>
+              Download the latest version of Cybersphere to protect your system
+              from unauthorized access and cyber threats.
+            </p>
+            <ul class="requirements">
+              <li><i class="fas fa-check-circle"></i> Windows 10/11</li>
+              <li>
+                <i class="fas fa-check-circle"></i> Python 3.11 or higher
+                (included in package)
+              </li>
+              <li><i class="fas fa-check-circle"></i> 4GB RAM minimum</li>
+              <li><i class="fas fa-check-circle"></i> 100MB free disk space</li>
+            </ul>
+            <p class="version-info">
+              Current Version: 1.0.0 | Released: May 2023
+            </p>
+          </div>
+          <div class="download-button">
+            <a href="main1.exe" class="btn download-btn" download>
+              <i class="fas fa-download"></i>
+              Download Cybersphere.exe
+            </a>
+            <p class="file-info">File Size: 24.5 MB</p>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="team" class="team">
-        <div class="container">
-            <h2 class="section-title">Our Team</h2>
-            <div class="team-members">
-                <div class="team-member">
-                    <div class="member-avatar">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <h3>Hania Arshad</h3>
-                    <p class="member-id">2023-CS-13</p>
-                    <p class="member-role">Lead Developer</p>
-                </div>
-                <div class="team-member">
-                    <div class="member-avatar">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <h3>Arwa Mahwash</h3>
-                    <p class="member-id">2023-CS-16</p>
-                    <p class="member-role">Security Analyst</p>
-                </div>
-                <div class="team-member">
-                    <div class="member-avatar">
-                        <i class="fas fa-user-circle"></i>
-                    </div>
-                    <h3>Khadija Fassih</h3>
-                    <p class="member-id">2023-CS-177</p>
-                    <p class="member-role">UI/UX Designer</p>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Our Team</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <div class="member-avatar">
+              <i class="fas fa-user-circle"></i>
             </div>
-            <div class="supervisor">
-                <h3>Project Supervisor</h3>
-                <p>Dr. Faiza Iqbal</p>
-                <p>Department of Computer Science</p>
-                <p>University of Engineering and Technology, Lahore, Pakistan</p>
+            <h3>Hania Arshad</h3>
+            <p class="member-id">2023-CS-13</p>
+            <p class="member-role">Lead Developer</p>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar">
+              <i class="fas fa-user-circle"></i>
             </div>
+            <h3>Arwa Mahwash</h3>
+            <p class="member-id">2023-CS-16</p>
+            <p class="member-role">Security Analyst</p>
+          </div>
+          <div class="team-member">
+            <div class="member-avatar">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <h3>Khadija Fassih</h3>
+            <p class="member-id">2023-CS-177</p>
+            <p class="member-role">UI/UX Designer</p>
+          </div>
         </div>
+        <div class="supervisor">
+          <h3>Project Supervisor</h3>
+          <p>Dr. Faiza Iqbal</p>
+          <p>Department of Computer Science</p>
+          <p>University of Engineering and Technology, Lahore, Pakistan</p>
+        </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <div class="logo">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h2>CYBERSPHERE</h2>
-                    <p>Information Security Project</p>
-                    <p>Session 2023 - 2027</p>
-                </div>
-                <div class="footer-links">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#modules">Modules</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#download">Download</a></li>
-                        <li><a href="#team">Team</a></li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h3>Contact</h3>
-                    <p><i class="fas fa-university"></i> Department of Computer Science</p>
-                    <p><i class="fas fa-map-marker-alt"></i> University of Engineering and Technology</p>
-                    <p><i class="fas fa-map-pin"></i> Lahore, Pakistan</p>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <div class="logo">
+              <i class="fas fa-shield-alt"></i>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2023 Cybersphere. All Rights Reserved.</p>
-            </div>
+            <h2>CYBERSPHERE</h2>
+            <p>Information Security Project</p>
+            <p>Session 2023 - 2027</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#modules">Modules</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#download">Download</a></li>
+              <li><a href="#team">Team</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>
+              <i class="fas fa-university"></i> Department of Computer Science
+            </p>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> University of Engineering
+              and Technology
+            </p>
+            <p><i class="fas fa-map-pin"></i> Lahore, Pakistan</p>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Cybersphere. All Rights Reserved.</p>
+        </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
